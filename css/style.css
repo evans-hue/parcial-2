@@ -1,110 +1,186 @@
-/* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #000;
-    color: white;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #000;
 }
 
-/* Header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px;
-    background-color: rgba(0, 0, 0, 0.9);
+/* NAVBAR */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
 }
 
-header .logo {
-    width: 120px;
+.navbar__logo img {
+  height: 35px;
 }
 
-nav ul {
-    display: flex;
-    list-style: none;
+.navbar__menu ul {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
 }
 
-nav ul li {
-    margin-left: 30px;
+.navbar__menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s;
+.navbar__extras {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-nav ul li a:hover {
-    color: #1e90ff;
+.navbar__extras input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid #aaa;
 }
 
-/* Hero */
-.hero {
-    text-align: center;
-    padding: 40px;
-}
-
+/* BANNER */
 .banner {
-    width: 100%;
-    max-height: 400px;
-    object-fit: cover;
-    margin-bottom: 20px;
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.hero h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+.banner__logo {
+  max-width: 350px;
 }
 
-/* Secciones generales */
-section {
-    padding: 60px 20px;
-    text-align: center;
+.banner__content p {
+  color: #fff;
+  font-size: 1.1rem;
+  margin: 1rem 0;
 }
 
-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+.banner__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
-/* Galerías */
-.gallery, .movie-gallery {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
-.gallery img, .movie-gallery img {
-    width: 250px;
-    height: 160px;
-    border-radius: 10px;
-    transition: transform 0.3s, box-shadow 0.3s;
+.btn--red {
+  background-color: #e32b2b;
+  color: #fff;
 }
 
-.gallery img:hover, .movie-gallery img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px white;
+.btn--white {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
 }
 
-/* Fondo */
-.more img {
-    width: 100%;
-    opacity: 0.8;
+.btn--purple {
+  background-color: #7b2cbf;
+  color: white;
 }
 
-/* Footer */
+.btn--small {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #000;
+  text-decoration: underline;
+}
+
+/* SECTIONS */
+.cards {
+  padding: 3rem 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.cards.yellow {
+  background-color: #7e57c2;
+}
+
+.cards.blue {
+  background-color: #003b4a;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards.white {
+  background-color: #f5f5f5;
+  color: black;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 250px;
+  padding-bottom: 1rem;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  padding: 0 10px;
+}
+
+/* VISA SECTION */
+.visa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 5rem;
+  background-color: #d9f6ff;
+}
+
+.visa__left img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.visa__right {
+  max-width: 400px;
+}
+
+/* FOOTER */
 footer {
-    background-color: #111;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    color: #aaa;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
 }
-
