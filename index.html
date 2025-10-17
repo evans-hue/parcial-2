@@ -3,69 +3,122 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Disney - Snow White</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Disney Snow White</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/logo.png" />
 </head>
+
 <body>
-  <!-- Sección principal con imagen de fondo -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1>Disney Snow White</h1>
-      <p>Experimenta Snow White, ahora en cines</p>
-      <div class="buttons">
-        <a href="#" class="btn red">Get Tickets Now</a>
-        <a href="#" class="btn white">Learn More</a>
-      </div>
-    </div>
+  <!-- Encabezado -->
+  <header class="navbar">
+    <img src="images/logo.png" alt="Disney Logo" class="logo" />
+    <nav>
+      <ul>
+        <li>Disney+</li>
+        <li>Parques & Travel</li>
+        <li>Movies</li>
+        <li>Shop</li>
+        <li>More</li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- Sección de películas destacadas -->
-  <section class="featured">
-    <h2>Películas y Contenido Destacado</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="https://lumiere-a.akamaihd.net/v1/images/alexander_movie_poster_d4d09b8e.jpeg" alt="">
-        <div class="card-content">
-          <h3>A Special Performance</h3>
-          <p>Rachel Zegler interpreta “Whistle a Song” en el Castillo.</p>
-          <a href="#">WATCH NOW</a>
-        </div>
+  <!-- Hero -->
+  <section class="hero">
+    <img src="images/snow-white.png" alt="Snow White Banner" class="hero-img" />
+    <div class="hero-text">
+      <h1>Disney Snow White</h1>
+      <p>Experimenta Snow White, ¡ya en cines!</p>
+      <div class="hero-buttons">
+        <button class="btn red">Get Tickets Now</button>
+        <button class="btn transparent">Learn More</button>
       </div>
+    </div>
+  </section>
 
-      <div class="card">
-        <img src="https://lumiere-a.akamaihd.net/v1/images/andor_poster_9c07a022.jpeg" alt="">
-        <div class="card-content">
-          <h3>The Art of Fairytale Fashion</h3>
-          <p>Diseñadora Sandy Powell trae moda de cuento de hadas a la vida.</p>
-          <a href="#">WATCH NOW</a>
-        </div>
+  <!-- Sección amarilla -->
+  <section class="highlight-section">
+    <div class="card">
+      <img src="images/movies-1.jpeg" alt="Special Performance" />
+      <div class="card-info">
+        <h4>A Special Performance</h4>
+        <p>Rachel Zegler performs “Whistle a Song” at the Castle.</p>
+        <button>WATCH NOW</button>
       </div>
+    </div>
 
-      <div class="card">
-        <img src="https://lumiere-a.akamaihd.net/v1/images/ironheart_poster_8fdfc120.jpeg" alt="">
-        <div class="card-content">
-          <h3>Disney Store</h3>
-          <p>Nueva muñeca edición limitada de Snow White.</p>
-          <a href="#">SHOP NOW</a>
-        </div>
+    <div class="card">
+      <img src="images/movies-2.jpeg" alt="Fashion" />
+      <div class="card-info">
+        <h4>The Art of Fairytale Fashion</h4>
+        <p>Legendary Designer Sandy Powell brings fairytale fashion to life.</p>
+        <button>WATCH NOW</button>
       </div>
+    </div>
 
-      <div class="card">
-        <img src="https://lumiere-a.akamaihd.net/v1/images/musical_conversation_9b092c9b.jpeg" alt="">
-        <div class="card-content">
-          <h3>A Musical Conversation</h3>
-          <p>Rachel Zegler y Pasek & Paul hablan sobre la música.</p>
-          <a href="#">WATCH NOW</a>
-        </div>
+    <div class="card">
+      <img src="images/movies-3.jpeg" alt="Disney Store" />
+      <div class="card-info">
+        <h4>Disney Store</h4>
+        <p>NEW Snow White Limited Edition Doll.</p>
+        <button>SHOP NOW</button>
       </div>
+    </div>
 
-      <div class="card">
-        <img src="https://lumiere-a.akamaihd.net/v1/images/doomies_poster_21f9b5d8.jpeg" alt="">
-        <div class="card-content">
-          <h3>The Doomies</h3>
-          <p>Marvel presenta a la nueva heroína forjada por la ciencia y la pasión.</p>
-          <a href="#">WATCH NOW</a>
-        </div>
+    <div class="card">
+      <img src="images/movies-4.jpeg" alt="Musical Conversation" />
+      <div class="card-info">
+        <h4>A Musical Conversation</h4>
+        <p>Rachel Zegler y Pasek & Paul discuten la música de Snow White.</p>
+        <button>WATCH NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explora más Disney+ -->
+  <section class="explore-section">
+    <h2>Explore More Disney+</h2>
+    <div class="explore-cards">
+      <div class="explore-card">
+        <img src="images/disney-plus-1.png" alt="Moana 2" />
+        <p>Disponible solo en Disney+</p>
+      </div>
+      <div class="explore-card">
+        <img src="images/disney-plus-2.png" alt="Daredevil" />
+        <p>Ya disponible en Disney+</p>
+      </div>
+      <div class="explore-card">
+        <img src="images/disney-plus-3.png" alt="Next on Disney+" />
+        <p>Próximamente en Disney+</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Próximamente -->
+  <section class="coming-section">
+    <h2>Coming Soon to Disney+</h2>
+    <div class="coming-cards">
+      <img src="images/movies-1.jpeg" alt="Alexander Movie" />
+      <img src="images/movies-2.jpeg" alt="Andor" />
+      <img src="images/movies-3.jpeg" alt="Ironheart" />
+      <img src="images/movies-4.jpeg" alt="Percy Jackson" />
+      <img src="images/movies-5.jpeg" alt="The Doonies" />
+    </div>
+  </section>
+
+  <!-- Parques -->
+  <section class="parks-section">
+    <h2>Vacation with Disney Parks</h2>
+    <div class="parks-cards">
+      <div class="park-card">
+        <img src="images/disney-parks-1.png" alt="Disneyland" />
+        <p>Disneyland Resort - Save up to 20% on select stays</p>
+        <button>LEARN MORE</button>
+      </div>
+      <div class="park-card">
+        <img src="images/disney-parks-2.png" alt="Disneyland Resort" />
+        <p>Book early and save during Disneyland’s 70th Celebration</p>
+        <button>LEARN MORE</button>
       </div>
     </div>
   </section>
@@ -73,14 +126,14 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="footer-content">
-      <img src="https://lumiere-a.akamaihd.net/v1/images/disney_cards_3a0f4b1e.png" alt="Disney Cards">
-      <div class="text">
+      <img src="images/banner.png" alt="Disney Cards" />
+      <div class="footer-text">
         <h3>GET MORE DISNEY EVERY DAY</h3>
-        <p><strong>Special Offer</strong><br>
-        Earn a <strong>$400</strong> statement credit.<br>
-        <strong>Special Vacation Financing</strong><br>
-        Enjoy 0% APR for 6 months.</p>
-        <a href="#" class="btn purple">LEARN MORE</a>
+        <p><b>Special Offer</b><br>
+        Earn a $400 statement credit.<br>
+        <b>Special Vacation Financing</b><br>
+        Enjoy 0% promotional APR for 6 months.</p>
+        <button class="btn purple">LEARN MORE</button>
       </div>
     </div>
     <p class="copy">© 2025 Disney and its related entities. All rights reserved.</p>
