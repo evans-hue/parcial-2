@@ -5,67 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Disney Snow White</title>
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <!-- ===== ENCABEZADO ===== -->
+  <!-- HEADER -->
   <header class="navbar">
-    <img src="images/logo.png" alt="Logo Disney" class="logo">
+    <img src="images/logo.png" alt="Disney Logo" class="logo">
     <nav>
-      <ul class="nav-links">
-        <li><a href="#">Disney+</a></li>
-        <li><a href="#">Parques</a></li>
-        <li><a href="#">Tienda</a></li>
-        <li><a href="#">Más</a></li>
+      <ul>
+        <li><a href="#disneyplus">Disney+</a></li>
+        <li><a href="#parks">Parques</a></li>
+        <li><a href="#shop">Tienda</a></li>
+        <li><a href="#movies">Más</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- ===== BANNER PRINCIPAL ===== -->
+  <!-- BANNER PRINCIPAL -->
   <section class="banner">
     <div class="banner-content">
       <h1>Disney Snow White</h1>
       <p>Experimenta Snow White, ¡ya en cines!</p>
       <div class="buttons">
-        <a href="#" class="btn btn-primary">Get Tickets Now</a>
-        <a href="#" class="btn btn-secondary">Learn More</a>
+        <a href="#" class="btn btn--primary">Get Tickets Now</a>
+        <a href="#shop" class="btn btn--secondary">Learn More</a>
       </div>
     </div>
   </section>
 
-  <!-- ===== SECCIÓN PRINCIPAL ===== -->
-  <main>
-    <section class="features">
-      <article class="card">
-        <img src="images/img1.jpg" alt="Actuación especial">
-        <h3>Una actuación especial</h3>
-        <p>Rachel Zegler interpreta "Waiting on a Wish"</p>
-        <a href="#" class="btn btn-primary">Watch Now</a>
-      </article>
+  <!-- SECCIÓN: SHOP -->
+  <section id="shop" class="shop">
+    <h2>Descubre la magia de Snow White</h2>
+    <div class="cards">
+      <article class="card"><img src="images/shop-image-1.png" alt="Actuación especial"></article>
+      <article class="card"><img src="images/shop-image-2.png" alt="Moda de cuento"></article>
+      <article class="card"><img src="images/shop-image-3.png" alt="Tienda Disney"></article>
+      <article class="card"><img src="images/shop-image-4.png" alt="Conversación musical"></article>
+    </div>
+  </section>
 
-      <article class="card">
-        <img src="images/img2.jpg" alt="Moda de cuento">
-        <h3>El arte de la moda</h3>
-        <p>Diseños inspirados en el clásico de Disney</p>
-        <a href="#" class="btn btn-primary">Watch Now</a>
-      </article>
+  <!-- SECCIÓN: DISNEY+ -->
+  <section id="disneyplus" class="disneyplus">
+    <h2>Explora más en Disney+</h2>
+    <div class="cards">
+      <article class="card"><img src="images/disney-plus-1.png" alt="Moana 2"></article>
+      <article class="card"><img src="images/disney-plus-2.png" alt="Daredevil"></article>
+      <article class="card"><img src="images/disney-plus-3.png" alt="Next on Disney+"></article>
+    </div>
+  </section>
 
-      <article class="card">
-        <img src="images/img3.jpg" alt="Tienda Disney">
-        <h3>Tienda Disney</h3>
-        <p>Muñeca edición limitada de Snow White</p>
-        <a href="#" class="btn btn-primary">Shop Now</a>
-      </article>
-    </section>
-  </main>
+  <!-- SECCIÓN: MOVIES -->
+  <section id="movies" class="movies">
+    <h2>Próximamente en Disney+</h2>
+    <div class="cards">
+      <article class="card"><img src="images/movies-1.jpeg" alt="Alexander Movie"></article>
+      <article class="card"><img src="images/movies-2.jpeg" alt="Andor"></article>
+      <article class="card"><img src="images/movies-3.jpeg" alt="Ironheart"></article>
+      <article class="card"><img src="images/movies-4.jpeg" alt="Percy Jackson"></article>
+      <article class="card"><img src="images/movies-5.jpeg" alt="The Doonies"></article>
+    </div>
+  </section>
 
-  <!-- ===== PIE DE PÁGINA ===== -->
+  <!-- SECCIÓN: PARKS -->
+  <section id="parks" class="parks">
+    <h2>Vive la experiencia Disney Parks</h2>
+    <div class="cards">
+      <article class="card"><img src="images/disney-parks-1.png" alt="Disneyland Resort"></article>
+      <article class="card"><img src="images/disney-parks-2.png" alt="Disney World Resort"></article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    <p>© 2025 Desarrollado por <strong>Evan Sebastian Caicedo Martínez</strong></p>
+    <p>&copy; 2024 Disney. Creado por Evan Sebastian Caicedo Martinez.</p>
+    <p>Repositorio: <a href="https://github.com/evans-hue/parcial-2">evans-hue/parcial-2</a></p>
     <p>Correo: <a href="mailto:sebastiancaicedo8454@gmail.com">sebastiancaicedo8454@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/evans-hue" target="_blank">evans-hue</a></p>
   </footer>
-
 </body>
 </html>
