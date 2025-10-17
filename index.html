@@ -1,140 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Disney Snow White</title>
+  <title>Disney - Snow White</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <!-- HEADER -->
+  <!-- Navbar -->
   <header class="navbar">
-    <div class="navbar__logo">
-      <img src="images/logo.png" alt="Disney Logo">
-    </div>
-    <nav class="navbar__menu">
+    <img src="images/logo.png" alt="Disney Logo" class="logo">
+    <nav>
       <ul>
-        <li><a href="#">DISNEY+</a></li>
-        <li><a href="#">PARKS & TRAVEL</a></li>
-        <li><a href="#">MOVIES</a></li>
-        <li><a href="#">SHOP</a></li>
-        <li><a href="#">MORE</a></li>
+        <li><a href="#">Disney+</a></li>
+        <li><a href="#">Parques</a></li>
+        <li><a href="#">Tienda</a></li>
+        <li><a href="#">Más</a></li>
       </ul>
     </nav>
-    <div class="navbar__extras">
-      <a href="#">LOG IN</a>
-      <input type="text" placeholder="Search">
-    </div>
   </header>
 
-  <!-- BANNER -->
+  <!-- Banner principal -->
   <section class="banner">
+    <img src="images/snow-white.png" alt="Snow White Banner" class="banner__image">
     <div class="banner__content">
-      <img src="images/snow-white.png" alt="Snow White Logo" class="banner__logo">
-      <p>Experience Snow White, now playing only in theaters!</p>
+      <h1>Disney Snow White</h1>
+      <p>Experimenta Snow White, ¡ya en cines!</p>
       <div class="banner__buttons">
-        <a href="https://www.fandango.com" class="btn btn--red">Get Tickets Now</a>
-        <a href="https://movies.disney.com/snow-white" class="btn btn--white">Learn More</a>
+        <a href="#peliculas" class="btn btn--red">Ver Películas</a>
+        <a href="#" class="btn btn--white">Más Información</a>
       </div>
     </div>
   </section>
 
-  <!-- CONTENT SECTION 1 -->
-  <section class="cards yellow">
-    <article class="card">
-      <img src="images/movies-1.jpeg" alt="Performance">
-      <h3>A Special Performance</h3>
-      <p>Rachel Zegler performs “Whistle a Song” at the Castle.</p>
-      <a href="#" class="btn btn--small">WATCH NOW</a>
-    </article>
-
-    <article class="card">
-      <img src="images/movies-2.jpeg" alt="Fashion">
-      <h3>The Art of Fairytale Fashion</h3>
-      <p>Designer Sandy Powell brings fairytale fashion to life.</p>
-      <a href="#" class="btn btn--small">WATCH NOW</a>
-    </article>
-
-    <article class="card">
-      <img src="images/shop-image-1.png" alt="Disney Store">
-      <h3>Disney Store</h3>
-      <p>NEW Snow White Limited Edition Doll.</p>
-      <a href="#" class="btn btn--small">SHOP NOW</a>
-    </article>
-
-    <article class="card">
-      <img src="images/movies-3.jpeg" alt="Music">
-      <h3>A Musical Conversation</h3>
-      <p>Rachel Zegler and Pasek & Paul discuss Snow White’s music.</p>
-      <a href="#" class="btn btn--small">WATCH NOW</a>
-    </article>
-  </section>
-
-  <!-- DISNEY+ SECTION -->
-  <section class="cards blue">
-    <h2>Explore More Disney+</h2>
-    <div class="card__row">
+  <!-- Sección de películas -->
+  <section id="peliculas" class="cards-section">
+    <h2>Películas y Contenido Destacado</h2>
+    <div class="cards">
       <article class="card">
-        <img src="images/disney-plus-1.png" alt="Moana 2">
-        <h3>Moana 2</h3>
-        <p>Available only on Disney+.</p>
-        <a href="#" class="btn btn--small">AVAILABLE ON DISNEY+</a>
+        <div class="card-media">
+          <img src="images/movies-1.jpeg" alt="A Special Performance">
+        </div>
+        <div class="card-body">
+          <h3>A Special Performance</h3>
+          <p>Rachel Zegler performs “Whistle a Song” at the Castle that inspired Snow White.</p>
+          <a href="#" class="card-link">WATCH NOW</a>
+        </div>
       </article>
 
       <article class="card">
-        <img src="images/disney-plus-2.png" alt="Daredevil">
-        <h3>Daredevil: Born Again</h3>
-        <p>Marvel Television’s new series.</p>
-        <a href="#" class="btn btn--small">STREAM NOW</a>
+        <div class="card-media">
+          <img src="images/movies-2.jpeg" alt="The Art of Fairytale Fashion">
+        </div>
+        <div class="card-body">
+          <h3>The Art of Fairytale Fashion</h3>
+          <p>Designer Sandy Powell brings fairytale fashion to life.</p>
+          <a href="#" class="card-link">WATCH NOW</a>
+        </div>
       </article>
 
       <article class="card">
-        <img src="images/disney-plus-3.png" alt="Next on Disney+">
-        <h3>Next on Disney+</h3>
-        <p>Everything new coming this month.</p>
-        <a href="#" class="btn btn--small">LEARN MORE</a>
-      </article>
-    </div>
-  </section>
-
-  <!-- PARKS SECTION -->
-  <section class="cards white">
-    <h2>Vacation with Disney Parks</h2>
-    <div class="card__row">
-      <article class="card">
-        <img src="images/disney-parks-1.png" alt="Disneyland">
-        <h3>Disneyland® Resort</h3>
-        <p>Save up to 20% on select stays from March 23 to May 15, 2025.</p>
-        <a href="#" class="btn btn--small">LEARN MORE</a>
+        <div class="card-media">
+          <img src="images/movies-3.jpeg" alt="Disney Store">
+        </div>
+        <div class="card-body">
+          <h3>Disney Store</h3>
+          <p>NEW Snow White Limited Edition Doll.</p>
+          <a href="#" class="card-link">SHOP NOW</a>
+        </div>
       </article>
 
       <article class="card">
-        <img src="images/disney-parks-2.png" alt="Disneyland 70th">
-        <h3>Disneyland® Resort 70th Celebration</h3>
-        <p>Book early and save on select stays May 16 - Sep 26, 2025.</p>
-        <a href="#" class="btn btn--small">LEARN MORE</a>
+        <div class="card-media">
+          <img src="images/movies-4.jpeg" alt="A Musical Conversation">
+        </div>
+        <div class="card-body">
+          <h3>A Musical Conversation</h3>
+          <p>Rachel Zegler y Pasek & Paul hablan sobre la música de Snow White.</p>
+          <a href="#" class="card-link">WATCH NOW</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-media">
+          <img src="images/movies-5.jpeg" alt="Ironheart">
+        </div>
+        <div class="card-body">
+          <h3>Ironheart</h3>
+          <p>Marvel presenta a la nueva heroína forjada por la ciencia y la pasión.</p>
+          <a href="#" class="card-link">WATCH NOW</a>
+        </div>
       </article>
     </div>
   </section>
 
-  <!-- VISA SECTION -->
-  <section class="visa">
-    <div class="visa__left">
-      <img src="images/more-background.jpeg" alt="Visa Cards">
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-promo">
+      <img src="images/banner.png" alt="Disney Credit Cards">
+      <div class="footer-text">
+        <h3>GET MORE DISNEY EVERY DAY</h3>
+        <p><strong>Special Offer</strong><br>
+        Earn a <strong>$400</strong> statement credit.<br>
+        <strong>Special Vacation Financing</strong><br>
+        Enjoy 0% promotional APR for 6 months.</p>
+        <a href="#" class="btn btn--purple">LEARN MORE</a>
+      </div>
     </div>
-    <div class="visa__right">
-      <h2>GET MORE DISNEY EVERY DAY</h2>
-      <p><strong>Special Offer</strong><br>Earn a <b>$400</b> statement credit.</p>
-      <p><strong>Special Vacation Financing</strong><br>Enjoy 0% promotional APR for 6 months.</p>
-      <a href="#" class="btn btn--purple">LEARN MORE</a>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>© 2025 Disney and its related entities. All rights reserved.</p>
+    <p class="footer-copy">© 2025 Disney and its related entities. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
