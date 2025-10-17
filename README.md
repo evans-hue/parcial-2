@@ -33,4 +33,4 @@ El sitio incluye varias secciones con estilos visuales, colores originales y bot
 ## 🚀 Vista previa
 
 Puedes ver la página desplegada en GitHub Pages:  
-👉 [https://tuusuario.github.io/parcial-2](https://tuusuario.github.io/parcial-2)
+👉 (https://evans-hue.github.io/parcial-2)
